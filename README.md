@@ -1,21 +1,11 @@
-# Trustline
-
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `trustline` to your list of dependencies in `mix.exs`:
+## RUN
 
 ```elixir
-def deps do
-  [
-    {:trustline, "~> 0.1.0"}
-  ]
-end
+./trustline --portHost=5555  --portTrustee=4444
+Welcome to your trustline!
+balance - Check your balance
+exit - Exit Trustline
+pay - Pay your trust party - separate cmd word and the amount with a space. Eg: 'pay 10'
+
+
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/trustline](https://hexdocs.pm/trustline).
-
