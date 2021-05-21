@@ -1,0 +1,7 @@
+%{
+  "icmp": {:hex, :icmp, "0.1.0", "1a9f4dd9738868c76d81b1486c4c34753010dca9dcdbed16d1557100d9002f0d", [:mix], [{:net_address, "~> 0.2.1", [hex: :net_address, repo: "hexpm", optional: false]}], "hexpm", "7eb4daf2d828325a4f14aba9007a2fa6cc200612c8f2c5c44a62db90d3fbfc26"},
+  "jason": {:hex, :jason, "1.2.2", "ba43e3f2709fd1aa1dce90aaabfd039d000469c05c56f0b8e31978e03fa39052", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "18a228f5f0058ee183f29f9eae0805c6e59d61c3b006760668d8d18ff0d12179"},
+  "net_address": {:hex, :net_address, "0.2.2", "b6949eec86da3580fa420c252eacba19e7e73741bc57318c7946dba7c9216ee7", [:mix], [], "hexpm", "99df1dd77353a65321e50c15f2e4ed0f0871da675f025b0f00242b5e8d971431"},
+  "socket": {:hex, :socket, "0.3.13", "98a2ab20ce17f95fb512c5cadddba32b57273e0d2dba2d2e5f976c5969d0c632", [:mix], [], "hexpm", "f82ea9833ef49dde272e6568ab8aac657a636acb4cf44a7de8a935acb8957c2e"},
+  "telnet": {:git, "https://github.com/hejin1026/telnet.git", "9ff099871756203eafea56d345f83de7b2e07ea9", []},
+}
